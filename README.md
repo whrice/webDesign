@@ -19,4 +19,4 @@
 
 2. app-tb：[appdemo2](https://whrice.github.io/webDesign/app-tb/index.html)
 
-![1566629683424](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\1566629683424.png)
+![1566629683424](https://github.com/whrice/webDesign/info-img/1566629683424.png)
