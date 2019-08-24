@@ -1,0 +1,149 @@
+.tag{
+    height: 54px;
+    width: 100%;
+    border: 1px solid #e4e4e4;
+    border-left:none;
+    border-right: none;
+}
+.tag-left{
+    display: flex;
+    height: 100%;
+    padding-left:35px;
+    align-items: center;
+    float: left;
+}
+.tag-left a{
+    border: 1px solid #e4e4e4;
+   padding:5px 10px;
+    text-align: center;
+    color:  rgb(72, 72, 72);
+    background-color: #fff;
+    box-sizing: content-box;
+    font-size: 14px;
+    margin-right:16px;
+    border-radius:6px;
+}
+.tag-left a:hover{
+    background: rgb(242, 242, 242)
+}
+.tag-right{
+    display: flex;
+    align-items: center;
+    float: right;
+    height: 100%;
+    margin-right:80px;
+    font-size: 14px;
+}
+.filter{
+    background-color: #00848A !important;
+    color: #fff !important;
+}
+.area{
+  
+    padding:35px;
+}
+.area-select{
+    display: flex;
+    flex-flow: wrap;
+    
+}
+.area-select .area-item{
+    width:290px;
+    position: relative;
+    margin-right:24px;
+    height: 300px;
+    margin-bottom: 6px;
+}
+.area-item .svg{
+    position: absolute;
+    top:0;
+    right: 0;
+    z-index:999;
+    top: 12px;
+    right: 12px;
+}
+.area-select div:nth-child(4n){
+    margin-right: 0px;
+}
+.area-item .area-slide{
+    height:60%;
+    width:100%;
+
+}
+.area-slide .swiper-container{
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+.area-slide .swiper-container:hover .control{
+    display: block;
+}
+.swiper-slide img{
+    width: 100%;
+    height: 100%;
+}
+.control{
+    height: 20px !important;
+    top:60% !important;
+    display: none;
+}
+.area-info{
+    
+    margin-top: 10px;
+    color: rgb(118, 118, 118);
+    font-size: 14px;
+}
+.area-info span{
+    font-size: 14px;
+}
+.price{
+    font-size: 16px !important;
+    font-weight: bold;
+}
+.host-left{
+    font-weight: bold;
+
+}
+.info-price{
+    float: left;
+    
+}
+.tip-left svg{
+    margin-right:6px;
+}
+.tip-left{
+  display: flex;
+   float: right;
+   align-items: center;
+   font-size: 12px;
+}
+.area-invite{
+    margin-top:10px;
+    border-bottom:1px solid #e4e4e4;
+    border-top:1px solid #e4e4e4;
+    height:300px;
+    padding: 24px;
+    display: flex;
+    align-items: center;
+}
+.area-invite .invite-img img{
+    width: 463px;
+    height:231px;
+    margin-left: 100px;
+}
+.invite-text{
+    margin-left:30px; 
+}
+.invite-text div{
+    font-size: 28px;
+    font-weight: bold;
+    color: rgb(72, 72, 72);
+    margin-bottom:18px;
+}
+.invite-text a{
+    color: #fff;
+    background: #00848A;
+    padding: 6px;
+    border-radius: 4px;
+
+}

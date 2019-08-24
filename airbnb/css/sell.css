@@ -1,0 +1,108 @@
+.sell-bg{
+   
+    height:660px;
+    width: 100%;
+    background: url('../img/sell-bg.jpg') no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+    margin-bottom: 40px;
+}
+.sell-bg .sell-form{
+    width:35%;
+    height:65%;
+    position: absolute;
+    top: 80px;
+    right: 80px;
+    background: #fff;
+    padding: 30px;
+    font-size: 22px;
+    border-radius: 4px;
+    
+}
+.sell-bg .sell-form h1{
+    margin: 0;
+}
+.form-text2{
+    font-size: 16px;
+    margin:10px 0;
+}
+.sell-form input{
+    height: 46px;
+    border: 1px solid #e4e4e4;
+    padding-left:8px;
+    font-size: 16px;
+}
+.form-input1{
+    width: 100%;
+    margin-bottom: 10px;
+}
+.form-input{
+    width: 100%;
+    display: flex;
+}
+.form-input2{
+    margin-right: 8px;
+    width:70%;
+}
+.form-input3{
+width:40%;
+}
+.sell-price{
+    margin: 22px 0;
+}
+.sell-price span:nth-of-type(1){
+    font-size: 40px ;
+    font-weight: 800;
+}
+.sell-price span:nth-of-type(2){
+    font-size: 12px;
+}
+.mi-btn{
+    margin-top: 20px !important;
+}
+.mi-btn a{
+    width: 100%;
+    height: 46px;
+    background: #FF5A5F;
+    color:#fff;
+    text-align: center;
+    display: block;
+    line-height: 46px;
+    border-radius: 4px;
+    margin-bottom: 8px;
+
+  }
+  .sell-nav{
+     display: flex;
+     align-items: center;
+     height: 100%;
+     text-align: right;
+     position: absolute;
+     right: 80px;
+ 
+  }
+  .sell-nav div{
+      display: flex;
+  }
+  .sell-nav .nav-re{
+   display: flex;
+   align-items: center;
+   margin-right:16px;
+  }
+  .nav-price span{
+      font-size: 20px !important ;
+  }
+  .nav-btn{
+      width:64px;
+      height:36px;
+      text-align: center;
+      background-color: #db3742;
+      color: #fff;
+      line-height: 40px;
+      border-radius:6px;
+      margin-left:16px;
+      font-size: 14px;
+  }
+  .nav-re div{
+    font-size: 14px;
+  }

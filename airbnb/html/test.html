@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="../layDate-v5.0.9/laydate/theme/default/laydate.css">
+</head>
+
+<body>
+    <input type="text" id='text1'>
+
+    <form action=""  class="layui-form">
+            <select name="city" lay-verify="">
+                    <option value="">请选择一个城市</option>
+                    <option value="010">北京</option>
+                    <option value="021">上海</option>
+                    <option value="0571">杭州</option>
+            </select>     
+    </form>
+    <script src='../layDate-v5.0.9/laydate/laydate.js'></script>
+</body>
+<script>
+  
+  laydate.render({
+  elem: '#text1'
+  ,range:true,
+  format: 'M月d日'
+});
+
+</script>
+
+</html>

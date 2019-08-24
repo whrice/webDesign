@@ -1,0 +1,651 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>度假屋、民宿、体验和攻略 - Airbnb爱彼迎</title>
+    <link rel="stylesheet" href="../css/style.css" type="text/css">
+    <link rel="shortcut icon" type="image/x-icon" href="../img/icon/logo.ico">
+    <link rel="stylesheet" href="../swiper-4.5.0/dist/css/swiper.min.css">
+</head>
+
+<body>
+    <header role='banner clearfix'>
+        <div class='head-logo'>
+            <a href="" class='logo' aria-label="爱彼迎主页">
+                <svg class='svg' viewBox="0 0 1000 1000">
+                    <path
+                        d="m499.3 736.7c-51-64-81-120.1-91-168.1-10-39-6-70 11-93 18-27 45-40 80-40s62 13 80 40c17 23 21 54 11 93-11 49-41 105-91 168.1zm362.2 43c-7 47-39 86-83 105-85 37-169.1-22-241.1-102 119.1-149.1 141.1-265.1 90-340.2-30-43-73-64-128.1-64-111 0-172.1 94-148.1 203.1 14 59 51 126.1 110 201.1-37 41-72 70-103 88-24 13-47 21-69 23-101 15-180.1-83-144.1-184.1 5-13 15-37 32-74l1-2c55-120.1 122.1-256.1 199.1-407.2l2-5 22-42c17-31 24-45 51-62 13-8 29-12 47-12 36 0 64 21 76 38 6 9 13 21 22 36l21 41 3 6c77 151.1 144.1 287.1 199.1 407.2l1 1 20 46 12 29c9.2 23.1 11.2 46.1 8.2 70.1zm46-90.1c-7-22-19-48-34-79v-1c-71-151.1-137.1-287.1-200.1-409.2l-4-6c-45-92-77-147.1-170.1-147.1-92 0-131.1 64-171.1 147.1l-3 6c-63 122.1-129.1 258.1-200.1 409.2v2l-21 46c-8 19-12 29-13 32-51 140.1 54 263.1 181.1 263.1 1 0 5 0 10-1h14c66-8 134.1-50 203.1-125.1 69 75 137.1 117.1 203.1 125.1h14c5 1 9 1 10 1 127.1.1 232.1-123 181.1-263.1z">
+                    </path>
+                </svg>
+            </a>
+        </div>
+        <div class='head-adjust'></div>
+        <nav>
+            <ul class='nav clearfix'>
+                <li class="nav-tit">
+                    <a href="">
+                        人民币-￥
+                    </a>
+                </li>
+                <li class="nav-tit">
+                    <a href="">手机端</a>
+                </li>
+                <li class="nav-tit">
+                    <a href="./sell.html">出租房源</a>
+                </li>
+                <li class="nav-tit">
+                    <a href="">开展体验</a>
+                </li>
+                <li class="nav-tit">
+                    <a href="">故事</a>
+                </li>
+                <li class="nav-tit">
+                    <a href="">帮助 </a>
+                </li>
+                <li class="nav-tit">
+                    <a href="">注册</a>
+                </li>
+                <li class="nav-tit last">
+                    <a href="">登录</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <div class='search'>
+        <div class='search-btn' id='search'>
+            <a href='javascript:void(0)' class='s-btn'>
+                <div>体验</div>
+                <svg viewBox="0 0 24 24" role="img" aria-label="Expand" focusable="false"
+                    style="height: 1em; width: 1em; display: block; fill: currentcolor;">
+                    <path
+                        d="m12.5 17c-.4426799 0-.8662787-.1919807-1.1664869-.5259747l-6.9098769-7.71341826c-.59660019-.66535794-.55843813-1.70547282.0852286-2.3221781.6449388-.61802022 1.65241717-.57725718 2.24774529.08810076l5.74338991 6.4103161 5.7433899-6.4103161c.5953281-.66404301 1.6015344-.70612098 2.2477453-.08810076.6436667.61670528.6818288 1.65682016.0852286 2.3221781l-6.9098769 7.71341826c-.3002082.333994-.723807.5259747-1.1664869.5259747">
+                    </path>
+                </svg>
+            </a>
+            <ul>
+                <li>房源</li>
+                <li>体验</li>
+            </ul>
+        </div>
+        <form action="" class='form'>
+            <div class='form-place'>
+                <div>
+                    <svg viewBox="0 0 32 32" role="presentation" aria-hidden="true" focusable="false"
+                        style="height:20px;width:20px;display:block;fill:currentColor">
+                        <path
+                            d="m16 .75c-6.77 0-12.25 5.48-12.25 12.25 0 6.37 3.23 11.14 11.78 18.08a.75.75 0 0 0 .95 0c8.54-6.94 11.77-11.71 11.77-18.08 0-6.77-5.48-12.25-12.25-12.25zm0 17a4.75 4.75 0 1 1 0-9.5 4.75 4.75 0 0 1 0 9.5z"
+                            fill-rule="evenodd"></path>
+                    </svg>
+                </div>
+                <div class='form-input'>
+                    <input type="text" placeholder="输入目的地、城市或景点">
+                    <div></div>
+                </div>
+            </div>
+            <div class='form-data'>
+                <div>
+                    <svg viewBox="0 0 24 24" role="presentation" aria-hidden="true" focusable="false"
+                        style="height:24px;width:24px;display:block;fill:currentColor">
+                        <path
+                            d="m18.0770384 18.2739019c0 .0129856 0-.3988416 0-.4915955zm1.412437-9.49428636h-1.3061345c-.0591596 0-.1063025.04823202-.1063025.10666696v4.7387953 1.5675405 2.5711373c0 .7494513-.2255462 1.3143224-.8208403 1.31525h-.844874-6.61663863-1.99386554c-.06008404 0-.10815126.048232-.10815126.108522v1.2957716c0 .2791891.22462185.5055086.50285714.5055086h11.29394959c.2782353 0 .5037815-.2263195.5037815-.5055086v-8.2569498-1.7205843-1.22064095c0-.27918916-.2255462-.50550861-.5037815-.50550861z">
+                        </path>
+                        <path
+                            d="m14.769551 15.1466124c0 .0111304-.0027731.0157681-.0027731.0287537 0 .6019726-.0027731.6168132-.4806723.6177408h-6.64621845c-.47789915-.0009276-.48159663-.0157682-.48159663-.6177408v-3.7936334c0-.6140307 0-.6177408.50840336-.6177408h.30596638.5897479 4.80302524.5897479.3031932c.5084034 0 .5084034.0037101.5084034.6177408 0 .0129855.0027731.0176232.0027731.0287537zm2.1380672 2.2873105v-7.87851397-1.7196568-1.2215685c0-.27918915-.2255462-.5055086-.5028571-.5055086h-1.4068908c-.1423529 0-.2578991-.11594234-.2578991-.25878331v-1.03977091c0-.44429105-.3586555-.80417608-.8014286-.80417608s-.8023529.35988503-.8023529.80417608v1.03977091c0 .14284097-.1155462.25878331-.2578992.25878331h-3.91655461c-.14235294 0-.25789916-.11594234-.25789916-.25878331v-1.03977091c0-.44429105-.35865546-.80417608-.80142857-.80417608s-.80235294.35988503-.80235294.80417608v1.03977091c0 .14284097-.11554622.25878331-.25789916.25878331h-1.31815126c-.27823529 0-.50378151.22631945-.50378151.5055086v1.2215685 1.77530913 7.82286164c0 .2782616.22554622.504581.50378151.504581h10.8807563c.2773109 0 .5028571-.2263194.5028571-.504581z">
+                        </path>
+                    </svg>
+                </div>
+                <div class='selectDate'>
+                    <a href="javascript:void(0)" class='select'>
+                        <!--
+                        <div class='checkIn'>
+                            <span>入住日期</span>
+                        </div>
+                        <div class='split'>
+                            <div></div>
+                        </div>
+                        <div class='checkOut'>
+                            <span>退房日期</span>
+                        </div>
+                        -->
+                        <input readonly="readonly" type="text" id='text1' class='check' placeholder="入住日期-退房日期">
+                    </a>
+                    <div class='date' id='text'>
+                     
+                    </div>
+                </div>
+            </div>
+            <div class='form-people'>
+                <div>
+                    <svg viewBox="0 0 24 24" role="presentation" aria-hidden="true" focusable="false"
+                        style="height:24px;width:24px;display:block;fill:currentColor">
+                        <path
+                            d="m9.42558192 9.00892857h-1.08511638v-1.0625c0-.5865-.48613214-1.0625-1.08511639-1.0625-.59898424 0-1.08511638.476-1.08511638 1.0625v1.0625h-1.08511639c-.21454301 0-.40428336.0765-.57170131.18214286-.30259246.18942857-.51341507.50392857-.51341507.88035717 0 .3764285.21082261.6909285.51341507.8803571.16741795.1056429.3571583.1821429.57170131.1821429h1.08511639v1.0625c0 .5865.48613214 1.0625 1.08511638 1.0625.59898425 0 1.08511639-.476 1.08511639-1.0625v-1.0625h1.08511638c.59898428 0 1.08511638-.476 1.08511638-1.0625 0-.58650003-.4861321-1.06250003-1.08511638-1.06250003m11.41666448 11.52600003c-.0334836.2659285-.2629082.4650714-.5369776.4650714h-8.8979543c-.2728293 0-.5022539-.1991429-.5357375-.4650714-.0496053-.3800715-.0818488-.7880715-.1078916-1.2045715-.1426153-2.2998571.0496054-4.9579285.484892-5.8018571.3360761-.6496429 1.1136395-1.3830714 2.5621148-2.4006429.5481388-.3825.5344974-.3970714.2033819-.7771428-.7478002-.86335716-1.1409224-1.98535716-1.1409224-3.42914287 0-1.68178572 1.3046199-2.92157143 2.98376-2.92157143.3013523 0 .5828625.05221429.8544517.12628571 1.2438534.34485715 2.1293083 1.41464286 2.1293083 2.79528572 0 1.44378571-.3931221 2.56578571-1.1409223 3.42914287-.3323557.3800714-.3435169.3946428.2033818.7771428 1.4484753 1.0175715 2.2260387 1.751 2.5621148 2.4006429.5146552.9969286.6944745 4.5292857.3770004 7.0064286">
+                        </path>
+                    </svg>
+                </div>
+                <div class='selectNum'>
+                    <a href="">
+                        <span>3 人</span>
+                    </a>
+                    <div></div>
+                </div>
+            </div>
+            <div class='form-btn'>
+                <a href='#'>搜索</a>
+            </div>
+        </form>
+    </div>
+    <div class='bg'>
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <a href="" class='slide'>
+                        <div class='info'>
+                            <span class='info-big'>端午不拼假<br>悠然 3 天玩不同</span>
+                            <div class='info-small'>3 天 2 夜也能玩出新乐趣</div>
+                            <button class='info-btn' onclick="window.open('./area.html')">进入优惠专场</button>
+                        </div>
+                        <img src="../img/bg3.jpg" alt="">
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <a href="" class='slide'>
+                        <div class='info'>
+                            <span class='info-big'>船屋帐篷小木屋<br>带你藏进六月的童话</span>
+                            <div class='info-small'>在奇妙的房子里做个天马行空的梦</div>
+                            <button class='info-btn'>进入专区</button>
+                        </div>
+                        <img src="../img/bg1.jpg" alt="">
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <a href="" class='slide'>
+                        <div class='info'>
+                            <span class='info-big'>预订安静舒适高考房<br>领取礼券 稳健备战</span>
+                            <div class='info-small'>在考点附近选处安静的短租房源，节省交通时间，助孩子轻松发挥实力</div>
+                            <button class='info-btn'>进入优惠专场</button>
+                        </div>
+                        <img src="../img/bg2.jpg" alt="">
+                    </a>
+                </div>
+            </div>
+            <!-- 如果需要分页器 -->
+            <div class="swiper-pagination swiper-pagination-progressbar ">
+                <span class="swiper-pagination-progressbar-fill"
+                    style="transform: translate3d(0px, 0px, 0px) scaleX(0.2) scaleY(1); transition-duration: 300ms;"></span>
+            </div>
+            <!-- 如果需要导航按钮 -->
+            <div class="swiper-button-prev swiper-button-white control"></div>
+            <div class="swiper-button-next swiper-button-white control"></div>
+
+        </div>
+    </div>
+    <div class='main container'>
+        <div class='item'>
+            <div class='item-tit'>
+                <h3>春季特惠房源</h3>
+                <h4>低至7折,可叠加使用礼券</h4>
+            </div>
+            <div class='item-btn'>
+                <a href="" class='btn selected'>上海</a>
+                <a href="" class='btn'>成都</a>
+                <a href="" class='btn'>北京</a>
+                <a href="" class='btn'>重庆</a>
+                <a href="" class='btn'>广州</a>
+                <a href="" class='btn'>西安</a>
+                <a href="" class='btn'>南京</a>
+                <a href="" class='btn'>武汉</a>
+            </div>
+            <div class='content'>
+                <ul class=''>
+                    <li class='house show'>
+                        <div class='content-house'>
+                            <a href="./detail.html" class='top'>
+                                <img src="../img/h1.jpg" alt="">
+                                <div class='intro'>
+                                    <span>整套普通公寓</span> · <span>1张床</span>
+                                </div>
+                                <div class='descri'>
+                                    room4城墙大雁塔之下简欧风格温馨舒适,大雁塔地铁4号线李家村站步行2分钟即到万达广场 交通便利
+                                </div>
+                            </a>
+                            <div class='bottom-pri'>
+                                <span>￥178</span>
+                                <span>每晚</span>
+                            </div>
+                            <div class='bottom-value'>
+                                <span class='bottom-tri'></span>
+                                <span class='bottom-num'>56</span>
+                            </div>
+                        </div>
+                        <div class='content-house'>
+                            <a href="" class='top'>
+                                <img src="../img/h1.jpg" alt="">
+                                <div class='intro'>
+                                    <span>整套普通公寓</span> · <span>1张床</span>
+                                </div>
+                                <div class='descri'>
+                                    room4城墙大雁塔之下简欧风格温馨舒适,大雁塔地铁4号线李家村站步行2分钟即到万达广场 交通便利
+                                </div>
+                            </a>
+                            <div class='bottom-pri'>
+                                <span>￥178</span>
+                                <span>每晚</span>
+                            </div>
+                            <div class='bottom-value'>
+                                <span class='bottom-tri'></span>
+                                <span class='bottom-num'>56</span>
+                            </div>
+                        </div>
+                        <div class='content-house'>
+                            <a href="" class='top'>
+                                <img src="../img/h1.jpg" alt="">
+                                <div class='intro'>
+                                    <span>整套普通公寓</span> · <span>1张床</span>
+                                </div>
+                                <div class='descri'>
+                                    room4城墙大雁塔之下简欧风格温馨舒适,大雁塔地铁4号线李家村站步行2分钟即到万达广场 交通便利
+                                </div>
+                            </a>
+                            <div class='bottom-pri'>
+                                <span>￥178</span>
+                                <span>每晚</span>
+                            </div>
+                            <div class='bottom-value'>
+                                <span class='bottom-tri'></span>
+                                <span class='bottom-num'>56</span>
+                            </div>
+                        </div>
+                        <div class='content-house'>
+                            <a href="" class='top'>
+                                <img src="../img/h1.jpg" alt="">
+                                <div class='intro'>
+                                    <span>整套普通公寓</span> · <span>1张床</span>
+                                </div>
+                                <div class='descri'>
+                                    room4城墙大雁塔之下简欧风格温馨舒适,大雁塔地铁4号线李家村站步行2分钟即到万达广场 交通便利
+                                </div>
+                            </a>
+                            <div class='bottom-pri'>
+                                <span>￥178</span>
+                                <span>每晚</span>
+                            </div>
+                            <div class='bottom-value'>
+                                <span class='bottom-tri'></span>
+                                <span class='bottom-num'>56</span>
+                            </div>
+                        </div>
+                        <div class='content-house'>
+                            <a href="" class='top'>
+                                <img src="../img/h1.jpg" alt="">
+                                <div class='intro'>
+                                    <span>整套普通公寓</span> · <span>1张床</span>
+                                </div>
+                                <div class='descri'>
+                                    room4城墙大雁塔之下简欧风格温馨舒适,大雁塔地铁4号线李家村站步行2分钟即到万达广场 交通便利
+                                </div>
+                            </a>
+                            <div class='bottom-pri'>
+                                <span>￥178</span>
+                                <span>每晚</span>
+                            </div>
+                            <div class='bottom-value'>
+                                <span class='bottom-tri'></span>
+                                <span class='bottom-num'>56</span>
+                            </div>
+                        </div>
+                        <div class='content-house'>
+                            <a href="" class='top'>
+                                <img src="../img/h1.jpg" alt="">
+                                <div class='intro'>
+                                    <span>整套普通公寓</span> · <span>1张床</span>
+                                </div>
+                                <div class='descri'>
+                                    room4城墙大雁塔之下简欧风格温馨舒适,大雁塔地铁4号线李家村站步行2分钟即到万达广场 交通便利
+                                </div>
+                            </a>
+                            <div class='bottom-pri'>
+                                <span>￥178</span>
+                                <span>每晚</span>
+                            </div>
+                            <div class='bottom-value'>
+                                <span class='bottom-tri'></span>
+                                <span class='bottom-num'>56</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li class='house'></li>
+                    <li class="house"></li>
+                    <li class="house"></li>
+                    <li class="house"></li>
+                    <li class="house"></li>
+                    <li class="house"></li>
+                    <li class="house"></li>
+                </ul>
+            </div>
+            <div class='devide'>
+                <a href="">
+                    <span>查看更多重庆房源</span>
+                    <span>
+                        <svg viewBox="0 0 18 18" role="img" aria-label="see all" focusable="false"
+                            style="height:10px;width:10px;fill:currentColor">
+                            <path
+                                d="m4.29 1.71a1 1 0 1 1 1.42-1.41l8 8a1 1 0 0 1 0 1.41l-8 8a1 1 0 1 1 -1.42-1.41l7.29-7.29z"
+                                fill-rule="evenodd"></path>
+                        </svg>
+                    </span>
+                </a>
+            </div>
+        </div>
+        <div class='item'>
+            <div class='item-tit'>
+                <h3>春季出行灵感集</h3>
+
+            </div>
+            <div class='item-btn'>
+                <a href="" class='btn selected'>上海</a>
+                <a href="" class='btn'>成都</a>
+                <a href="" class='btn'>北京</a>
+                <a href="" class='btn'>重庆</a>
+                <a href="" class='btn'>广州</a>
+                <a href="" class='btn'>西安</a>
+                <a href="" class='btn'>南京</a>
+                <a href="" class='btn'>武汉</a>
+            </div>
+            <div class='content'>
+                <ul class=''>
+                    <li class='house show'>
+                        <div class='content-house'>
+                            <a href="" class='top'>
+                                <img src="../img/h1.jpg" alt="">
+                                <div class='intro'>
+                                    <span>整套普通公寓</span> · <span>1张床</span>
+                                </div>
+                                <div class='descri'>
+                                    room4城墙大雁塔之下简欧风格温馨舒适,大雁塔地铁4号线李家村站步行2分钟即到万达广场 交通便利
+                                </div>
+                            </a>
+                            <div class='bottom-pri'>
+                                <span>￥178</span>
+                                <span>每晚</span>
+                            </div>
+                            <div class='bottom-value'>
+                                <span class='bottom-tri'></span>
+                                <span class='bottom-num'>56</span>
+                            </div>
+                        </div>
+                        <div class='content-house'>
+                            <a href="" class='top'>
+                                <img src="../img/h1.jpg" alt="">
+                                <div class='intro'>
+                                    <span>整套普通公寓</span> · <span>1张床</span>
+                                </div>
+                                <div class='descri'>
+                                    room4城墙大雁塔之下简欧风格温馨舒适,大雁塔地铁4号线李家村站步行2分钟即到万达广场 交通便利
+                                </div>
+                            </a>
+                            <div class='bottom-pri'>
+                                <span>￥178</span>
+                                <span>每晚</span>
+                            </div>
+                            <div class='bottom-value'>
+                                <span class='bottom-tri'></span>
+                                <span class='bottom-num'>56</span>
+                            </div>
+                        </div>
+                        <div class='content-house'>
+                            <a href="" class='top'>
+                                <img src="../img/h1.jpg" alt="">
+                                <div class='intro'>
+                                    <span>整套普通公寓</span> · <span>1张床</span>
+                                </div>
+                                <div class='descri'>
+                                    room4城墙大雁塔之下简欧风格温馨舒适,大雁塔地铁4号线李家村站步行2分钟即到万达广场 交通便利
+                                </div>
+                            </a>
+                            <div class='bottom-pri'>
+                                <span>￥178</span>
+                                <span>每晚</span>
+                            </div>
+                            <div class='bottom-value'>
+                                <span class='bottom-tri'></span>
+                                <span class='bottom-num'>56</span>
+                            </div>
+                        </div>
+                        <div class='content-house'>
+                            <a href="" class='top'>
+                                <img src="../img/h1.jpg" alt="">
+                                <div class='intro'>
+                                    <span>整套普通公寓</span> · <span>1张床</span>
+                                </div>
+                                <div class='descri'>
+                                    room4城墙大雁塔之下简欧风格温馨舒适,大雁塔地铁4号线李家村站步行2分钟即到万达广场 交通便利
+                                </div>
+                            </a>
+                            <div class='bottom-pri'>
+                                <span>￥178</span>
+                                <span>每晚</span>
+                            </div>
+                            <div class='bottom-value'>
+                                <span class='bottom-tri'></span>
+                                <span class='bottom-num'>56</span>
+                            </div>
+                        </div>
+                        <div class='content-house'>
+                            <a href="" class='top'>
+                                <img src="../img/h1.jpg" alt="">
+                                <div class='intro'>
+                                    <span>整套普通公寓</span> · <span>1张床</span>
+                                </div>
+                                <div class='descri'>
+                                    room4城墙大雁塔之下简欧风格温馨舒适,大雁塔地铁4号线李家村站步行2分钟即到万达广场 交通便利
+                                </div>
+                            </a>
+                            <div class='bottom-pri'>
+                                <span>￥178</span>
+                                <span>每晚</span>
+                            </div>
+                            <div class='bottom-value'>
+                                <span class='bottom-tri'></span>
+                                <span class='bottom-num'>56</span>
+                            </div>
+                        </div>
+                        <div class='content-house'>
+                            <a href="" class='top'>
+                                <img src="../img/h1.jpg" alt="">
+                                <div class='intro'>
+                                    <span>整套普通公寓</span> · <span>1张床</span>
+                                </div>
+                                <div class='descri'>
+                                    room4城墙大雁塔之下简欧风格温馨舒适,大雁塔地铁4号线李家村站步行2分钟即到万达广场 交通便利
+                                </div>
+                            </a>
+                            <div class='bottom-pri'>
+                                <span>￥178</span>
+                                <span>每晚</span>
+                            </div>
+                            <div class='bottom-value'>
+                                <span class='bottom-tri'></span>
+                                <span class='bottom-num'>56</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li class='house'></li>
+                    <li class="house"></li>
+                    <li class="house"></li>
+                    <li class="house"></li>
+                    <li class="house"></li>
+                    <li class="house"></li>
+                    <li class="house"></li>
+                </ul>
+            </div>
+        </div>
+        <div class='item'>
+            <div class='item-tit'>
+                <h3>热门目的地</h3>
+
+            </div>
+            <div class='item-btn'>
+                <a href="" class='btn selected'>上海</a>
+                <a href="" class='btn'>成都</a>
+                <a href="" class='btn'>北京</a>
+                <a href="" class='btn'>重庆</a>
+                <a href="" class='btn'>广州</a>
+                <a href="" class='btn'>西安</a>
+                <a href="" class='btn'>南京</a>
+                <a href="" class='btn'>武汉</a>
+            </div>
+            <div class='content'>
+                <ul class=''>
+                    <li class='house show'>
+                        <div class='content-house'>
+                            <a href="" class='top'>
+                                <img src="../img/h1.jpg" alt="">
+                                <div class='intro'>
+                                    <span>整套普通公寓</span> · <span>1张床</span>
+                                </div>
+                                <div class='descri'>
+                                    room4城墙大雁塔之下简欧风格温馨舒适,大雁塔地铁4号线李家村站步行2分钟即到万达广场 交通便利
+                                </div>
+                            </a>
+                            <div class='bottom-pri'>
+                                <span>￥178</span>
+                                <span>每晚</span>
+                            </div>
+                            <div class='bottom-value'>
+                                <span class='bottom-tri'></span>
+                                <span class='bottom-num'>56</span>
+                            </div>
+                        </div>
+                        <div class='content-house'>
+                            <a href="" class='top'>
+                                <img src="../img/h1.jpg" alt="">
+                                <div class='intro'>
+                                    <span>整套普通公寓</span> · <span>1张床</span>
+                                </div>
+                                <div class='descri'>
+                                    room4城墙大雁塔之下简欧风格温馨舒适,大雁塔地铁4号线李家村站步行2分钟即到万达广场 交通便利
+                                </div>
+                            </a>
+                            <div class='bottom-pri'>
+                                <span>￥178</span>
+                                <span>每晚</span>
+                            </div>
+                            <div class='bottom-value'>
+                                <span class='bottom-tri'></span>
+                                <span class='bottom-num'>56</span>
+                            </div>
+                        </div>
+                        <div class='content-house'>
+                            <a href="" class='top'>
+                                <img src="../img/h1.jpg" alt="">
+                                <div class='intro'>
+                                    <span>整套普通公寓</span> · <span>1张床</span>
+                                </div>
+                                <div class='descri'>
+                                    room4城墙大雁塔之下简欧风格温馨舒适,大雁塔地铁4号线李家村站步行2分钟即到万达广场 交通便利
+                                </div>
+                            </a>
+                            <div class='bottom-pri'>
+                                <span>￥178</span>
+                                <span>每晚</span>
+                            </div>
+                            <div class='bottom-value'>
+                                <span class='bottom-tri'></span>
+                                <span class='bottom-num'>56</span>
+                            </div>
+                        </div>
+                        <div class='content-house'>
+                            <a href="" class='top'>
+                                <img src="../img/h1.jpg" alt="">
+                                <div class='intro'>
+                                    <span>整套普通公寓</span> · <span>1张床</span>
+                                </div>
+                                <div class='descri'>
+                                    room4城墙大雁塔之下简欧风格温馨舒适,大雁塔地铁4号线李家村站步行2分钟即到万达广场 交通便利
+                                </div>
+                            </a>
+                            <div class='bottom-pri'>
+                                <span>￥178</span>
+                                <span>每晚</span>
+                            </div>
+                            <div class='bottom-value'>
+                                <span class='bottom-tri'></span>
+                                <span class='bottom-num'>56</span>
+                            </div>
+                        </div>
+                        <div class='content-house'>
+                            <a href="" class='top'>
+                                <img src="../img/h1.jpg" alt="">
+                                <div class='intro'>
+                                    <span>整套普通公寓</span> · <span>1张床</span>
+                                </div>
+                                <div class='descri'>
+                                    room4城墙大雁塔之下简欧风格温馨舒适,大雁塔地铁4号线李家村站步行2分钟即到万达广场 交通便利
+                                </div>
+                            </a>
+                            <div class='bottom-pri'>
+                                <span>￥178</span>
+                                <span>每晚</span>
+                            </div>
+                            <div class='bottom-value'>
+                                <span class='bottom-tri'></span>
+                                <span class='bottom-num'>56</span>
+                            </div>
+                        </div>
+                        <div class='content-house'>
+                            <a href="" class='top'>
+                                <img src="../img/h1.jpg" alt="">
+                                <div class='intro'>
+                                    <span>整套普通公寓</span> · <span>1张床</span>
+                                </div>
+                                <div class='descri'>
+                                    room4城墙大雁塔之下简欧风格温馨舒适,大雁塔地铁4号线李家村站步行2分钟即到万达广场 交通便利
+                                </div>
+                            </a>
+                            <div class='bottom-pri'>
+                                <span>￥178</span>
+                                <span>每晚</span>
+                            </div>
+                            <div class='bottom-value'>
+                                <span class='bottom-tri'></span>
+                                <span class='bottom-num'>56</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li class='house'></li>
+                    <li class="house"></li>
+                    <li class="house"></li>
+                    <li class="house"></li>
+                    <li class="house"></li>
+                    <li class="house"></li>
+                    <li class="house"></li>
+                </ul>
+            </div>
+            <div class='devide'>
+                <a href="">
+                    <span>查看更多上海房源</span>
+                    <span>
+                        <svg viewBox="0 0 18 18" role="img" aria-label="see all" focusable="false"
+                            style="height:10px;width:10px;fill:currentColor">
+                            <path
+                                d="m4.29 1.71a1 1 0 1 1 1.42-1.41l8 8a1 1 0 0 1 0 1.41l-8 8a1 1 0 1 1 -1.42-1.41l7.29-7.29z"
+                                fill-rule="evenodd"></path>
+                        </svg>
+                    </span>
+                </a>
+            </div>
+        </div>
+        <div class='item'></div>
+        <div class='item'></div>
+        <div class='item'></div>
+    </div>
+    <script src='../layDate-v5.0.9/laydate/laydate.js'></script>
+    <script src='../swiper-4.5.0/dist/js/swiper.min.js'></script>
+    <script src='../js/index.js'></script>
+</body>
+
+</html>
